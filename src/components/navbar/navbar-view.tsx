@@ -173,14 +173,12 @@ const Navbar = () => {
               >
                 Book Now {" >"}
               </button>
-              {cartLength >= 1 && (
                 <Link to="/cart" className="m-auto ml-[1rem]">
                   <LocalMallIcon
                     style={{ fontSize: "2rem", color: "#ab6034" }}
                   />
                   <span className="text-gray-400">{cartLength}</span>
                 </Link>
-              )}
             </div>
           </div>
         </div>
