@@ -1,0 +1,15 @@
+.no-scrollbar{
+  overflow-y: hidden;
+}
+
+.no-scrollbar::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Hide scrollbar thumb */
+}
+
+  .animate-move-down {
+    transition: transform 1s ease-out;
+  }
+
+  .animate-move-down:hover {
+    transform: translateY(5px); /* Adjust the distance you want to move down */
+  }
