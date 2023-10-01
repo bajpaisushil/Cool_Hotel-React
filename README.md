@@ -2,11 +2,11 @@
 
 Follow the steps to run the application on your local machine:
 1. Clone the repository:
-   git@github.com:bajpaisushil/Cool_Hotel-React.git
+   git clone git@github.com:bajpaisushil/Cool_Hotel-React.git
 
-2. Open up the Project Folder in a terminal
-3. Run the command - 'npm install' at the root of your project directory to install the required dependencies
-4. Run 'npm run dev' to run the application.
+3. Open up the Project Folder in a terminal
+4. Run the command - 'npm install' at the root of your project directory to install the required dependencies
+5. Run 'npm run dev' to run the application.
    
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
