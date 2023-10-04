@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useEffect, useState } from "react";
+import { useEffect } from "react";
 import Navbar from "../../components/navbar/navbar-view";
 import { Link } from "react-router-dom";
 import AddLocationAltIcon from "@mui/icons-material/AddLocationAlt";

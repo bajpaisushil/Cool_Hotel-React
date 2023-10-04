@@ -22,7 +22,7 @@ import {
   standardRooms,
 } from "./constants/data";
 import { useDispatch } from "react-redux";
-import cartSlice, { setCart } from "../../redux/features/cartSlice";
+import { setCart } from "../../redux/features/cartSlice";
 
 const localizer = momentLocalizer(moment);
 

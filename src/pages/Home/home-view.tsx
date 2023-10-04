@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect } from "react";
 import Navbar from "../../components/navbar/navbar-view";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";

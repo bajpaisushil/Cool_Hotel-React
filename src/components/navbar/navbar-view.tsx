@@ -3,10 +3,6 @@ import useNavbarController from "./navbar-controller";
 import LocalMallIcon from "@mui/icons-material/LocalMall";
 import { useSelector } from "react-redux";
 
-interface props {
-  textColor: string;
-  bgColor: "#1d1b1a" | "#f4f2f1";
-}
 
 const Navbar = () => {
   const navbarController = useNavbarController();

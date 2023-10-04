@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import CheckIcon from "@mui/icons-material/Check";
 import Navbar from "../../components/navbar/navbar-view";
 import { enjoyList, facilities } from "./constants/data";
-import Footer from "../../components/footer";
 
 
 const About: React.FC = () => {
