@@ -26,9 +26,6 @@ import { setCart } from "../../redux/features/cartSlice";
 
 const localizer = momentLocalizer(moment);
 
-type ValuePiece = Date | null;
-type Value = ValuePiece | [ValuePiece, ValuePiece];
-
 const roomFacilities = [
   "Breakfast Included",
   "Flat Screen TV",
@@ -49,23 +46,6 @@ const myEventsList = [
     end: new Date(),
   },
 ];
-interface Room {
-  id: number;
-  image: string;
-  title: string;
-  adults: number;
-  size: number;
-  subTitle: number;
-  price: number;
-}
-interface CartItem{
-  checkin: string;
-  checkout: string;
-  adults: number;
-  children: number;
-  quantity: number;
-  rooms: Array<Room>;
-}
 
 const RoomDetails = () => {
   const dispatch = useDispatch();
@@ -73,7 +53,6 @@ const RoomDetails = () => {
   const cartItems=useSelector((state: any)=> state.cart);
   console.log(cartItems);
 
-  const [value, onChange] = useState<Value>(new Date());
   const [rating, setRating] = useState(0);
   const [bookingCheckin, setBookingCheckin] = useState<any>("");
   const [bookingCheckout, setBookingCheckout] = useState<any>("");

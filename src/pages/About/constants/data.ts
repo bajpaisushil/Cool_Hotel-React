@@ -2,7 +2,6 @@ import FastfoodIcon from '@mui/icons-material/Fastfood';
 import BedIcon from '@mui/icons-material/Bed';
 import ParkIcon from '@mui/icons-material/Park';
 import SelfImprovementIcon from '@mui/icons-material/SelfImprovement';
-import SpaIcon from '@mui/icons-material/Spa';
 
 
 export const enjoyList=[

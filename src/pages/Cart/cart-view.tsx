@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Navbar from "../../components/navbar";
 import { Link } from "react-router-dom";
 import { removeFromCart } from "../../redux/features/cartSlice";
