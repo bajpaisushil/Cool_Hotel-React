@@ -1,5 +1,7 @@
 # React + TypeScript + Vite
 
+Live At=> https://cool-hotel.netlify.app/
+
 Follow the steps to run the application on your local machine:
 1. Clone the repository:
    git clone git@github.com:bajpaisushil/Cool_Hotel-React.git
