@@ -21,7 +21,7 @@ const Navbar = () => {
             <img
               src="/assets/images/coolhotel7.jpg"
               alt="logo"
-              className={`w-[25rem] h-[4rem] border ml-[1.5rem] text-${navbarController.color=='1d1b1a'? 'white': 'black'}`}
+              className={`w-[10rem] lg:w-[15rem] h-[4rem] border ml-[1.5rem] text-${navbarController.color=='1d1b1a'? 'white': 'black'}`}
             />
           </Link>
           <button

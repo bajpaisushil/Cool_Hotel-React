@@ -85,7 +85,7 @@ const Top = () => (
         </Carousel>
       </div>
       <div className="w-full bg-gradient-to-br from-black via-transparent to-ab6034 bg-cover bg-center animate-color h-[100px] flex">
-        <div
+        {/* <div
           className="flex w-[400px] justify-end items-end absolute left-[2rem] bottom-[1rem]"
           data-aos="fade-right"
         >
@@ -96,7 +96,7 @@ const Top = () => (
               transform="translate(100 100)"
             />
           </svg>
-        </div>
+        </div> */}
       </div>
     </div>
   </div>
@@ -104,7 +104,7 @@ const Top = () => (
 
 const BriefSummary = () => (
   <div>
-    <div className="flex flex-col w-fit m-auto justify-center items-center lg:flex-row pt-[5rem] lg:pt-[8rem] z-[30]">
+    <div className="flex flex-col w-fit m-auto justify-center items-center lg:flex-row pt-[3rem] lg:pt-[8rem] z-[30]">
       <div className="flex flex-col w-fit m-auto lg:flex-row mb-[4rem] justify-center items-center lg:p-[4rem]">
         <div className="justify-center items-center w-fit">
           <div className="w-fit m-auto">
@@ -116,12 +116,12 @@ const BriefSummary = () => (
             <img
               src="/assets/images/coolhotel5.jpg"
               className="hidden lg:block 2xl:w-[20rem] lg:w-[16rem] lg:h-[18rem] 2xl:h-[21rem] m-[1rem] lg:ml-[10vw]"
-              alt="toilet1"
+              alt="cool2"
             />
             <img
               src="/assets/images/coolhotel3.jpg"
               className="w-[16rem] 2xl:w-[20rem] lg:h-[18rem] 2xl:h-[21rem] mb-[1rem] lg:m-[1rem] lg:mr-[8vw] xl:ml-[25vw]"
-              alt="toilet2"
+              alt="cool3"
             />
             <div className="hidden absolute lg:left-[15vw] md:left-[12rem] top-[180vh] lg:top-[215vh] 2xl:top-[170vh] left-[1rem] lg:flex flex-col w-fit bg-[#ab6034] p-[1rem] text-white">
               <svg
@@ -140,11 +140,11 @@ const BriefSummary = () => (
           </div>
         </div>
 
-        <div className="lg:max-w-[46vw]">
+        <div className=" lg:max-w-[46vw]">
           <p className="text-[#ab6034] font-semibold text-[1.2rem] m-[1rem]">
             About Company
           </p>
-          <h1 className="m-[1rem] text-[2rem] lg:text-[2.5rem] tracking-[.1em] font-semibold max-w-[40rem]">
+          <h1 className="m-[0.5rem] lg:m-[1rem] text-[1.7rem] lg:text-[2.5rem] tracking-[.1em] font-semibold max-w-[40rem]">
             World Class Luxury Hotel & Restaurant Near City
           </h1>
           <p className="m-[1rem] mb-[2rem] text-[1rem] text-gray">
@@ -152,7 +152,7 @@ const BriefSummary = () => (
             beguiled and demoralized by the charms of pleasure of the moment
           </p>
           <div className="flex flex-col lg:flex-row m-[1rem] bg-[#f4f2f1] p-[1.4rem]">
-            <div className="flex flex-row">
+            <div className="flex flex-col lg:flex-row">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="35"
